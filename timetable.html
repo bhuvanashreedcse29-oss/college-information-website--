@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3e6f8;
+        }
+        nav {
+            background-color: #022d58;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+            margin: 30px 0;
+        }
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #0059b3;
+            color: white;
+        }
+        .break {
+            background-color: #ffe699;
+            font-weight: bold;
+        }
+
+        .lab {
+            background-color: #f2f3f3;
+        }
+        .day{
+            background-color: rgb(76, 133, 240);
+        }
+
+         .info h3 {
+            color: #003366;
+        }
+
+        .info ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="faculty.html" target="_blank">Faculty</a>
+    <a href="courses.html" target="_blank">Courses</a>
+    <a href="timetable.html" target="_blank">Timetable</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <a href="about us.html" target="_blank">About Us</a>
+</nav>
+
+    <h1>Class Timetable</h1>
+    <table>
+        <tr>
+        <th >Day</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>1:00 - 2:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+    </tr>
+    <tr>
+        <td class="day">Monday</td>
+        <td>Mathematics</td>
+        <td>Java</td>
+        <td rowspan="6" class="break">LUNCH</td>
+        <td>Web Technology</td>
+        <td >Python</td>
+        <td class="lab">Computer Lab</td>
+        <td class="lab">Computer Lab</td>
+    </tr>
+    <tr>
+        <td class="day">Tuesday</td>
+        <td>English</td>
+        <td>Python</td>
+        <td>Web Technology</td>
+        <td>Web Technology</td>
+        <td>Java</td>
+        <td>Java</td>
+    </tr>
+    <tr>
+        <td class="day">Wednesday</td>
+        <td>Mathematics</td>
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Web Technology</td>
+        <td class="lab">Computer Lab</td>
+        <td>EEE</td>
+    </tr>
+    <tr>
+        <td class="day">Thursday</td>
+        <td>English</td>
+        <td>Python</td>
+        <td>Java</td>
+        <td>Web Technology</td>
+        <td>EEE</td>
+        <td>EEE</td>
+    </tr>
+    <tr>
+        <td class="day">Friday</td>
+        <td>Mathematics</td>
+        <td>Python</td>
+        <td>Python</td>
+        <td>Python</td>
+        <td>Web Technology</td>
+        <td>Java</td>
+    </tr>
+    <tr>
+        <td class="day">Saturday</td>
+        <td colspan="3">Python</td>
+        <td colspan="2">Java</td>
+        <td colspan="2">Web Technology</td>
+    </tr>
+    </table>
+
+    <h3>Important Notes</h3>
+    <ul>
+        <li>Students must be present in the classroom before the session starts.</li>
+        <li>Lab sessions require proper lab uniform.</li>
+        <li>Workshop and seminar timings may vary.</li>
+        <li>Any changes will be notified by the department.</li>
+    </ul>
+
+<footer>
+    © 2026 ABC College of Engineering and Technology
+</footer>
+</body>
+</html>

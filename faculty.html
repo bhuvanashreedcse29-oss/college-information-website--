@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty page</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color:  #d3e6f8;
+        }
+        nav {
+            background-color: #022d58;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+        }
+        .faculty-container { 
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .faculty-card {
+            background-color: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .faculty-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="faculty.html" target="_blank">Faculty</a>
+    <a href="courses.html" target="_blank">Courses</a>
+    <a href="timetable.html" target="_blank">Timetable</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <a href="about us.html" target="_blank">About Us</a>
+</nav>
+
+    <center><h1>Our Faculty Members</h1>
+    <p style="text-align: center;"><b>Our faculty members are highly qualified, experienced, and dedicated to providing quality education. They guide students with strong academic knowledge, practical skills, and continuous support for overall development.</b></p>
+</center>
+    
+<div class="faculty-container">
+
+    <div class="faculty-card">
+        <img src="ken.jpg" alt="Faculty Image">
+        <h3>Dr.Ken</h3>
+        <p><b>Professor & HOD</b></p>
+        <p>Specialized in Computer Science with 19+ years of experience.</p>
+    </div>
+
+    <div class="faculty-card">
+        <img src="kelvin.jpg" alt="Faculty Image">
+        <h3>Mr. Kelvin</h3>
+        <p><b>Assistant Professor</b></p>
+        <p>Expert in Artificial Intelligence.</p>
+    </div>
+
+    <div class="faculty-card">
+        <img src="gwen.jpg" alt="Faculty Image">
+        <h3>Dr. Gwen</h3>
+        <p><b> Professor</b></p>
+        <p>Focused on Cyber Security.</p>
+    </div>
+
+    <div class="faculty-card">
+        <img src="robin.jpg" alt="Faculty Image">
+        <h3>Mr. Robin</h3>
+        <p><b> Professor</b></p>
+        <p>Focused on EEE.</p>
+    </div>
+
+    <div class="faculty-card">
+        <img src="raven.jpg" alt="Faculty Image">
+        <h3>Ms. Raven</h3>
+        <p><b> Professor</b></p>
+        <p>Focused on ECE.</p>
+    </div>
+
+    <footer>
+    © 2026 ABC College of Engineering and Technology
+</footer>
+</div>
+</body>
+</html>

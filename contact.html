@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:  #d3e6f8;
+        }
+
+        
+        nav {
+            background-color: #003366;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: #003366;
+            margin-top: 30px;
+        }
+        .contact-container {
+            width: 70%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            margin-top: 20px;
+            background-color: #003366;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0059b3;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="faculty.html" target="_blank">Faculty</a>
+    <a href="courses.html" target="_blank">Courses</a>
+    <a href="timetable.html" target="_blank">Timetable</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <a href="about us.html" target="_blank">About Us</a>
+</nav>
+
+<h1>Contact Us</h1>
+
+<div class="contact-container">
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter your phone number">
+
+        <label>Message</label>
+        <textarea placeholder="Enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    © 2026 ABC College of Engineering and Technology
+</footer>
+
+</body>
+</html>

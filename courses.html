@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:  #d3e6f8;
+        }
+
+        nav {
+            background-color: #022d58;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+         h1 {
+            text-align: center;
+            color: #003366;
+            margin: 30px 0;
+        }
+        .courses-container {
+            width: 85%;
+            margin: auto;
+        }
+
+        .course-card {
+            background-color: white;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+         .course-card:hover {
+            transform: scale(1.02);
+        }
+        .course-card img {
+            width: 190px;
+            height: 160px;
+            border-radius: 10px;
+        }
+        .course-info h2 {
+            color: #0059b3;
+            margin-top: 0;
+        }
+         .course-info ul {
+            padding-left: 20px;
+        }
+        
+
+         footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+     <nav>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="faculty.html" target="_blank">Faculty</a>
+    <a href="courses.html" target="_blank">Courses</a>
+    <a href="timetable.html" target="_blank">Timetable</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    <a href="about us.html" target="_blank">About Us</a>
+</nav>
+<h1> Courses List </h1>
+<div class="courses-container">
+
+    <div class="course-card">
+        <img src="cse.jpg" alt="CSE">
+        <div class="course-info">
+            <h2>Computer Science and Engineering</h2>
+            <p>
+                This course focuses on programming, software development, and computer systems.
+                Students gain strong technical and problem-solving skills.
+            </p>
+            <ul>
+                <li>Programming in C, Java, Python</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web and Mobile Application Development</li>
+            </ul>
+        </div>
+    </div>
+
+     <div class="course-card">
+        <img src="ai.jpg" alt="AI">
+        <div class="course-info">
+            <h2>Artificial Intelligence & Data Science</h2>
+            <p>
+                This program prepares students for careers in AI, machine learning,
+                and data analysis using modern tools and technologies.
+            </p>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Data Analytics</li>
+                <li>Deep Learning Fundamentals</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <img src="ece.jpg" alt="ECE">
+        <div class="course-info">
+            <h2>Electronics and Communication Engineering</h2>
+            <p>
+                This course covers electronics, communication systems, and hardware design
+                with practical laboratory experience.
+            </p>
+            <ul>
+                <li>Digital Electronics</li>
+                <li>Communication Systems</li>
+                <li>VLSI and Embedded Systems</li>
+            </ul>
+        </div>
+    </div>
+
+
+ <div class="course-card">
+        <img src="eee.jpg" alt="EEE">
+        <div class="course-info">
+            <h2> Electrical and Electronics Engineering</h2>
+            <p>
+                A core engineering discipline focused on electricity, electronics, and electromagnetism, covering power systems, circuits, telecommunications, and control systems, vital for designing and developing electrical and electronic devices and infrastructure.
+            </p>
+            <ul>
+                <li>Electrical Systems</li>
+                <li>Core Principles</li>
+                <li>Network Theory</li>
+            </ul>
+        </div>
+    </div>
+ 
+    <div class="course-card">
+        <img src="cyber.jpg" alt="EEE">
+        <div class="course-info">
+            <h2> Cyber Security </h2>
+            <p>
+                The practice of protecting computer systems, networks, and data from digital attacks, damage, or unauthorized access. It uses a combination of technologies, processes, and human behaviors to defend against threats like malware, phishing, and hacking to ensure the confidentiality, integrity, and availability of information
+            </p>
+            <ul>
+                <li>Network Security</li>
+                <li>Information Security</li>
+                <li>Application Security</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+    © 2026 ABC College of Engineering and Technology
+</footer>
+</body>
+</html>
